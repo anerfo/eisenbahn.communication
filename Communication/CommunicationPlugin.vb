@@ -22,7 +22,7 @@
         Return obj
     End Function
 
-    Public Sub PluginStarten(ByVal Referenz As PluginManagerLibrary.InterfaceFuerPlugins) Implements PluginManagerLibrary.PluginInterface.PluginStarten
+    Public Sub PluginStarten(ByVal Referenz As PluginManagerLibrary.InterfaceFuerPlugins) Implements PluginManagerLibrary.PluginInterface.pluginStarten
         mainProgramm = Referenz
     End Sub
 
